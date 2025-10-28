@@ -17,6 +17,7 @@
 
 body{
     font-family: "jost", sans-serif;
+    overflow-x: hidden;
 }
 .header{
     width:100%;
@@ -78,7 +79,7 @@ nav .logo{
     margin-top: 120px;
     gap:30px;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 .service{
@@ -90,6 +91,62 @@ nav .logo{
 .service img{
     max-width: 100%;
 
+}
+#about{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.about-content{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content h1{
+    font-size: 32px;
+    color:var(--primary-dark);
+    text-transform: uppercase;
+}
+#about img{
+    max-width: 100%;
+}
+#talk-to-us{
+    background-image: url("/assets/talk-to-us.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+
+}
+.talk-to-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    gap:16px;
+   padding: 0 16px;
+}
+.talk-to-content h1{
+    color:var(--primary-dark);
+}
+.talk-to-content p{
+    max-width: 500px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+     padding: 16px 0;
+    align-items:center;
+
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    gap:32px;
+}
+footer .logo{
+    color:var(--primary-dark);
 }
 
 
@@ -194,6 +251,12 @@ nav .logo{
         width:100%;
         padding: 8px 16px;
         text-align: right;
+     }
+     footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 0;
+
      }
     
 }
