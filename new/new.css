@@ -79,7 +79,7 @@ nav .logo{
     margin-top: 120px;
     gap:30px;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 .service{
@@ -147,6 +147,15 @@ footer ul{
 }
 footer .logo{
     color:var(--primary-dark);
+}
+/* contact page */
+#contact-header{
+    min-height:400px;
+    background-image: url("/assets/contact-banner.png");
+    background-size: cover;
+    background-position: center;
+
+
 }
 
 
