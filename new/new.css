@@ -73,6 +73,95 @@ nav .logo{
 .btn:hover{
     background-color: var(--primary-light);
 }
+#services{
+    display: flex;
+    margin-top: 120px;
+    gap:30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.service{
+    /* width:300px; */
+}
+.service p{
+    color:gray;
+}
+.service img{
+    max-width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* media querires */
