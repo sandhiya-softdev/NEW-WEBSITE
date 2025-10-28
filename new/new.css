@@ -49,12 +49,27 @@ nav .logo{
     align-items: center;
     justify-content: center;
     gap:16px;
+    margin-top: 60px;
 }
 .header-container h1{
     font-size: 60px;
+    color: var(--primary-dark);
+    font-weight: 500;
+}
+.header-container p{
+    font-size: 40px;
     color: var(--primary-dark);
 }
 
 .btn{
     padding: 10px 24px;
+    color:white;
+    border:none;
+    background-color: var(--primary-light);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: var(--primary-light);
+
 }
