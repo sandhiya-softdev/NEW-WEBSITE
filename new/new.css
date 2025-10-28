@@ -149,7 +149,7 @@ footer .logo{
     color:var(--primary-dark);
 }
 /* contact page */
-#contact-header{
+.contact-header{
     min-height:400px;
     background-image: url("/assets/contact-banner.png");
     background-size: cover;
