@@ -17,7 +17,7 @@
 
 body{
     font-family: "jost", sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .header{
     width:100%;
@@ -159,6 +159,7 @@ footer .logo{
     display: flex;
     justify-content: space-between;
     margin: 80px auto;
+    gap:60px;
   
 }
 form{
