@@ -38,6 +38,7 @@ nav ul{
     display: flex;
     list-style-type: none;
     gap:32px;
+    font-size: 18px;
 
 }
 nav .logo{
@@ -71,5 +72,39 @@ nav .logo{
 }
 .btn:hover{
     background-color: var(--primary-light);
+}
 
+
+/* media querires */
+@media screen and (max-width: 520px){
+    #header{
+        min-height:50vh;
+    }
+    .header-container h1{
+        font-size: 32px;
+    }
+     .header-container p{
+        font-size: 24px;
+
+     }
+     nav ul{
+        position: absolute;
+        top:0;
+        right:0;
+        flex-direction: column;
+        background-color: var(--white);
+        width:80%;
+        height:100%;
+        align-items: end;
+        padding-top: 60px ;
+
+
+     }
+     nav li{
+        border-bottom: 1px solid var(--primary-dark);
+        width:100%;
+        padding: 8px 16px;
+        text-align: right;
+     }
+    
 }
