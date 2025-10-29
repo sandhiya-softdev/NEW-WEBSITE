@@ -79,7 +79,7 @@ nav .logo{
     margin-top: 120px;
     gap:30px;
     justify-content: center;
-    flex-wrap: wrap;
+ 
 
 }
 .service{
@@ -174,12 +174,49 @@ form{
 
 }
 .inputswrapper input{
-    padding: 10px 16px;
+    padding: 12px 16px;
     width: 100%;
+    border: 1px solid var(--primary-dark);
+    outline:none;
 }
 .address{
     flex-basis: 50%;
 }
+.detailswrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 60px;
+}
+.detail{
+    display: flex;
+    gap: 10px;
+}
+.detail img{
+    width: 40px;
+    height: 40px;
+
+}
+.detail h6{
+    color: gray;
+}
+.followsuswrapper{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.sociallink{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+
+
+
+
+
 
 
 
