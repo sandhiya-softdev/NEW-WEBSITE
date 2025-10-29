@@ -40,11 +40,21 @@ nav ul{
     list-style-type: none;
     gap:32px;
     font-size: 18px;
+   
 
 }
 nav .logo{
     font-size: 20px;
 }
+.nav-links li a{
+    text-decoration: none;
+    color:var(--primary-dark);
+    transition: all 0.2s ease;
+}
+.nav-links li a:hover{
+    color:var(--primary-light);
+}
+
 .header-container{
     display: flex;
     flex-direction: column;
