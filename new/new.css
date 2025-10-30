@@ -46,6 +46,7 @@ nav ul{
 nav .logo{
     font-size: 20px;
 }
+
 .nav-links li a{
     text-decoration: none;
     color:var(--primary-dark);
